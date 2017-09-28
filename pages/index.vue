@@ -71,17 +71,21 @@
     </div>
   </div>
 
+
+<rodape></rodape>
 </div>
 </template>
 
 <script>
 import topo from '@/components/topo';
 import cards from '@/components/card';
+import rodape from '@/components/rodape';
 
 export default {
   components: {
     topo,
-    cards
+    cards,
+    rodape
   },
   data() {
     return {
