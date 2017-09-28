@@ -44,6 +44,41 @@
       </div>
 
 
+      <div class="card html container column" v-if="type === 'HTML'">
+        <div class="number container justify-content-between">
+          <slot name="index"></slot>
+        </div>
+        <div class="language">
+          <h4>
+            <slot name="language"></slot>
+          </h4>
+        </div>
+
+        <div class="text" v-show="size == 'large'">
+          <h2>
+            <slot name="text"></slot>
+          </h2>
+        </div>
+
+        <div class="text" v-show="size == 'medium'">
+          <h4>
+            <slot name="text"></slot>
+          </h4>
+        </div>
+
+        <div class="text" v-show="size == 'small'">
+          <h6>
+            <slot name="text"></slot>
+          </h6>
+        </div>
+
+        <div class="tags">
+          <slot name="tag">
+          </slot>
+        </div>
+      </div>
+
+
     </div>
 
 </template>
@@ -53,14 +88,16 @@ export default {
   name: 'cards',
   data() {
     return {
-      isCss: true,
-      isJs: true
     }
   },
   props: {
   		type: {
   			type: String
-  		}
+  		},
+      size: {
+        type: String,
+        default: 'large'
+      }
   	},
   methods: {
 
@@ -108,6 +145,11 @@ export default {
     color: #fff;
     background: #fff;
     background: linear-gradient(10deg, #F8A856, #F85555);
+}
+.html {
+    color: #fff;
+    background: #fff;
+    background: linear-gradient(10deg, red, blue);
 }
 .tag li {
     margin-right: 5px;
