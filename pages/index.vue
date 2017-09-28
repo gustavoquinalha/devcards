@@ -139,13 +139,16 @@ export default {
 @import './assets/css/main.scss';
 .fade-enter-active {
     transition: all 0.1s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+    position: absolute;
 }
 .fade-leave-active {
     transition: all 0.1s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+    // position: absolute;
 }
 .fade-enter,
 .fade-leave-to {
     opacity: 0;
+    position: absolute;
 }
 
 .configs {
