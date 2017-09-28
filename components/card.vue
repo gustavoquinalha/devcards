@@ -1,104 +1,89 @@
 <template>
-
-    <div class="">
-      <div class="card css container column"  v-if="type === 'CSS'">
-        <div class="number container justify-content-between">
-          <slot name="index"></slot>
-        </div>
-        <div class="language">
-          <h4>
+<div class="">
+  <div class="card css container column" v-if="type === 'CSS'">
+    <div class="number container justify-content-between">
+      <slot name="index"></slot>
+    </div>
+    <div class="language">
+      <h4>
             <slot name="language"></slot>
           </h4>
-        </div>
-        <div class="text">
-          <h2>
+    </div>
+    <div class="text">
+      <h2>
             <slot name="text"></slot>
           </h2>
-        </div>
-        <div class="tags">
-          <slot name="tag">
-          </slot>
-        </div>
-      </div>
+    </div>
+    <div class="tags">
+      <slot name="tag">
+      </slot>
+    </div>
+  </div>
 
 
 
-      <div class="card js container column" v-if="type === 'JS'">
-        <div class="number container justify-content-between">
-          <slot name="index"></slot>
-        </div>
-        <div class="language">
-          <h4>
+  <div class="card js container column" v-if="type === 'JS'">
+    <div class="number container justify-content-between">
+      <slot name="index"></slot>
+    </div>
+    <div class="language">
+      <h4>
             <slot name="language"></slot>
           </h4>
-        </div>
-        <div class="text">
-          <h2>
+    </div>
+    <div class="text">
+      <h2>
             <slot name="text"></slot>
           </h2>
-        </div>
-        <div class="tags">
-          <slot name="tag">
-          </slot>
-        </div>
-      </div>
+    </div>
+    <div class="tags">
+      <slot name="tag">
+      </slot>
+    </div>
+  </div>
 
 
-      <div class="card html container column" v-if="type === 'HTML'">
-        <div class="number container justify-content-between">
-          <slot name="index"></slot>
-        </div>
-        <div class="language">
-          <h4>
+  <div class="card html container column" v-if="type === 'HTML'">
+    <div class="number container justify-content-between">
+      <slot name="index"></slot>
+    </div>
+    <div class="language">
+      <h4>
             <slot name="language"></slot>
           </h4>
-        </div>
-
-        <div class="text" v-show="size == 'large'">
-          <h2>
-            <slot name="text"></slot>
-          </h2>
-        </div>
-
-        <div class="text" v-show="size == 'medium'">
-          <h4>
-            <slot name="text"></slot>
-          </h4>
-        </div>
-
-        <div class="text" v-show="size == 'small'">
-          <h6>
-            <slot name="text"></slot>
-          </h6>
-        </div>
-
-        <div class="tags">
-          <slot name="tag">
-          </slot>
-        </div>
-      </div>
-
-
     </div>
 
+    <div class="text">
+      <h2 :style="{fontSize: fontSize + 'px', lineHeight: fontSize + 'px'}">
+            <slot name="text"></slot>
+          </h2>
+    </div>
+
+    <div class="tags">
+      <slot name="tag">
+      </slot>
+    </div>
+  </div>
+
+
+</div>
 </template>
 
 <script>
 export default {
   name: 'cards',
   data() {
-    return {
-    }
+    return {}
   },
   props: {
-  		type: {
-  			type: String
-  		},
-      size: {
-        type: String,
-        default: 'large'
-      }
-  	},
+    type: {
+      type: String
+    },
+    fontSize: {
+      type: Number,
+      default: 43
+    }
+  },
   methods: {
 
   }
@@ -106,6 +91,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+h2 {
+    font-size: 43px;
+    line-height: 43px;
+}
 .number {
     // background: red
 }
@@ -115,6 +104,7 @@ export default {
 .text {
     // background: orange;
     flex-grow: 1;
+    margin-top: 20px;
 }
 .tags {
     // background: blue
@@ -129,12 +119,12 @@ export default {
     min-height: 350px;
     border-radius: 4px;
     cursor: pointer;
-    transition: .3s;
+    transition: 0.3s;
     box-shadow: 0 0 20px 0 rgba(0,0,0,.2);
-      &:hover {
+    &:hover {
         transform: scale(1.1,1.1);
         box-shadow: 0 10px 20px 0 rgba(0,0,0,.2);
-      }
+    }
 }
 .css {
     color: #fff;

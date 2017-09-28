@@ -3,7 +3,7 @@ module.exports = {
     'node_modules/the-grid-flexbox/css/the-grid.min.css'
   ],
   head: {
-    title: 'StyleGuide Kit',
+    title: 'zzzzzzzz',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, minimum-scale=1, maximum-scale=1, initial-scale=1' },
