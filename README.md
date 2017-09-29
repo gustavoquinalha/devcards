@@ -12,6 +12,9 @@ A definição mais aceita de cognição é a habilidade para processar informaç
 - https://pt.wikipedia.org/wiki/Cogni%C3%A7%C3%A3o
 - https://www.cognifit.com/br/cognicao
 
+# Novos cards
+[Issue para novos cards](https://github.com/gustavoquinalha/devcards/issues/1)
+
 ## Build Setup
 
 ``` bash
