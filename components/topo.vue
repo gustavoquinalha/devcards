@@ -6,7 +6,7 @@
           <div class="logo">
             <img src="~/assets/images/logo.svg" alt="" width="200">
           </div>
-          <p>O jeito mais facíl de você se tornar um Dev.</p>
+          <p>O jeito mais fácil de você se tornar um Dev.</p>
         </div>
       </div>
     </header>
