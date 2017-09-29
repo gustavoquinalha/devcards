@@ -1,9 +1,10 @@
 # DevCards
+[Link do projeto](https://dev-cards.herokuapp.com/)
 
 > Nuxt.js project
 
 # A idéia
-O propósito do projeto é gerar contéudo de estudo para quem está começando de uma maneira fácil e visual com a psicologia coginitiva. O que é a cognição? O termo vem da raiz latina cognoscere, que significa “conhecer”. Quando falamos de cognição, geralmente fazemos referência a tudo o que está relacionado com o conhecimento. Em outras palavras, a acumulação de informações que adquirimos através da aprendizagem ou experiência.
+O propósito do projeto é gerar contéudo de estudo para quem está começando, com uma maneira fácil e visual com a psicologia coginitiva. O que é a cognição? O termo vem da raiz latina cognoscere, que significa “conhecer”. Quando falamos de cognição, geralmente fazemos referência a tudo o que está relacionado com o conhecimento. Em outras palavras, a acumulação de informações que adquirimos através da aprendizagem ou experiência.
 A definição mais aceita de cognição é a habilidade para processar informações através da percepção (estímulos que recebemos através dos diferentes sentidos), conhecimentos adquiridos através da experiência e nossas características subjetivas, que nos permitem integrar todas essas informações para avaliar e interpretar nosso mundo. Em outras palavras, a cognição é a habilidade que temos para assimilar e processar as informações que recebemos de diferentes meios (percepção, experiência, crenças…) para que sejam convertidas em conhecimento. A cognição inclui diferentes processos cognitivos, como a aprendizagem, atenção, memória, linguagem, raciocínio, tomada de decisões, etc., que fazem parte de nosso desenvolvimento intelectual e experiências.
 
 > Cognição é o ato ou processo da aquisição do conhecimento que se dá através da percepção, da atenção, associação, memória, raciocínio, juízo, imaginação, pensamento e linguagem.
