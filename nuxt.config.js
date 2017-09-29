@@ -14,13 +14,13 @@ module.exports = {
       // google+
       { itemprop: 'name', content: 'DevCards' },
       { itemprop: 'description', content: 'O jeito mais fácil de você se tornar um Dev.' },
-      { itemprop: 'image', content: 'https://github.com/gustavoquinalha/devcards/image/intro.png' },
+      { itemprop: 'image', content: 'https://dev-cards.herokuapp.com/intro.png' },
       // facebook
       { property: 'og:type', content: 'website' },
       { property: 'og:title', content: 'DevCards' },
       { property: 'og:url', content: 'https://github.com/gustavoquinalha/devcards/' },
       { property: 'og:site_name', content: 'DevCards' },
-      { property: 'og:image', content: 'https://github.com/gustavoquinalha/devcards/image/intro.png' },
+      { property: 'og:image', content: 'https://dev-cards.herokuapp.com/intro.png' },
       { property: 'og:description', content: 'O jeito mais fácil de você se tornar um Dev.' },
       { property: 'og:locale', content: 'pt_Br' },
       { property: 'fb:app_id', content: '122670998365518' },
@@ -30,7 +30,7 @@ module.exports = {
       { name: 'twitter:title', content: 'DevCards' },
       { name: 'twitter:description', content: 'O jeito mais fácil de você se tornar um Dev.' },
       { name: 'twitter:creator', content: 'https://github.com/gustavoquinalha/devcards' },
-      { name: 'twitter:image', content: 'https://github.com/gustavoquinalha/devcards/image/intro.png' },
+      { name: 'twitter:image', content: 'https://dev-cards.herokuapp.com/intro.png' },
       // android
       { name: 'msapplication-TileColor', content: '#0081FF' },
       { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' },
